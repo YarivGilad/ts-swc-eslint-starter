@@ -1,3 +1,10 @@
+[<img src="https://img.shields.io/badge/-Node.js-success.svg?logo=node">](https://nodejs.org/)
+[<img src="https://img.shields.io/badge/-SWC-FECC00.svg?logo=swc">](https://swc.rs/)
+[![ts](https://badgen.net/badge/-/Typescript?icon=typescript&label&labelColor=blue&color=555555)](https://github.com/TypeStrong/ts-node)
+[<img src="https://img.shields.io/badge/-ESLint-4B32C3.svg?logo=ESlint">](https://eslint.org/)
+[![Husky](https://img.shields.io/static/v1?label=Formated+by&message=Prettier&color=ff69b4)](https://github.com/prettier/prettier)
+[![Husky](https://img.shields.io/static/v1?label=Hooked+by&message=Husky&color=success)](https://typicode.github.io/husky)
+
 # Node.js TS 
 ## SWC starter kit
 
