@@ -1,57 +1,53 @@
 {
-    "name": "ts-swc-eslint-starter",
-    "version": "1.0.0",
-    "description": "This setup compiles Typescript to ESM for the Node.js runtime.     It's super-fast.      it uses *`swc`* for the actual compiling. *`tsc`* is used for type checking only. nodemon allows us to re-compile and run from dist with every change during development.",
-    "main": "index.js",
-    "type": "module",
-    "scripts": {
-        "build": "rm -rf dist && swc src -d dist",
-        "build-dev": "npm run build && node dist/index.js",
-        "dev": "nodemon",
-        "start": "npm run build && NODE_ENV=production node dist/index.js",
-        "lint": "eslint src/**/*.ts",
-        "format": "prettier src/**/*.ts --write",
-        "prepare": "husky install",
-        "emit-d": "tsc --declaration --emitDeclarationOnly"
-    },
-    "keywords": [
-        "typescript",
-        "nodemon",
-        "swc",
-        "esm",
-        "node.js",
-        "eslint",
-        "prettier",
-        "husky"
-    ],
-    "author": {
-        "name": "Yariv Gilad",
-        "email": "yariv.gilad@gmail.com",
-        "url": "https://yarivgilad.com"
-    },
-    "license": "ISC",
-    "devDependencies": {
-        "@swc/cli": "^0.1.55",
-        "@swc/core": "^1.2.120",
-        "@types/node": "^16.11.13",
-        "@typescript-eslint/eslint-plugin": "^5.7.0",
-        "@typescript-eslint/parser": "^5.7.0",
-        "eslint": "^8.5.0",
-        "eslint-config-prettier": "^8.3.0",
-        "husky": "^7.0.4",
-        "nodemon": "^2.0.15",
-        "prettier": "^2.5.1",
-        "typescript": "^4.5.4"
-    },
-    "dependencies": {
-        "@ajar/marker": "^1.3.2"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/YarivGilad/ts-swc-node-starter.git"
-    },
-    "bugs": {
-        "url": "https://github.com/YarivGilad/ts-swc-node-starter/issues"
-    },
-    "homepage": "https://github.com/YarivGilad/ts-swc-node-starter#readme"
+  "name": "ts-swc-eslint-starter",
+  "version": "1.0.0",
+  "description": "This setup compiles Typescript to ESM for the Node.js runtime.     It's super-fast.      it uses *`swc`* for the actual compiling. *`tsc`* is used for type checking only. nodemon allows us to re-compile and run from dist with every change during development.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rm -rf dist && swc src -d dist",
+    "build-dev": "npm run build && node dist/index.js",
+    "dev": "nodemon",
+    "start": "npm run build && NODE_ENV=production node dist/index.js",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier src/**/*.ts --write",
+    "prepare": "husky install",
+    "emit-d": "tsc --declaration --emitDeclarationOnly"
+  },
+  "keywords": [
+    "typescript",
+    "nodemon",
+    "swc",
+    "esm",
+    "node.js",
+    "eslint",
+    "prettier",
+    "husky"
+  ],
+  "author": "Yariv Gilad <yariv.gilad@gmail.com> (https://yarivgilad.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.120",
+    "@types/node": "^16.11.13",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.4",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@ajar/marker": "^1.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YarivGilad/ts-swc-eslint-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YarivGilad/ts-swc-eslint-starter/issues"
+  },
+  "homepage": "https://github.com/YarivGilad/ts-swc-eslint-starter#readme"
 }
