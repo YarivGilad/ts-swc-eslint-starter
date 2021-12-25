@@ -11,7 +11,8 @@
         "start": "npm run build && NODE_ENV=production node dist/index.js",
         "lint": "eslint src/**/*.ts",
         "format": "prettier src/**/*.ts --write",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "emit-d": "tsc --declaration --emitDeclarationOnly"
     },
     "keywords": [
         "typescript",
