@@ -31,20 +31,20 @@
     },
     "license": "ISC",
     "devDependencies": {
-        "@swc/cli": "^0.1.55",
-        "@swc/core": "^1.2.120",
-        "@types/node": "^16.11.13",
-        "@typescript-eslint/eslint-plugin": "^5.7.0",
-        "@typescript-eslint/parser": "^5.7.0",
-        "eslint": "^8.5.0",
-        "eslint-config-prettier": "^8.3.0",
-        "husky": "^7.0.4",
-        "nodemon": "^2.0.15",
-        "prettier": "^2.5.1",
-        "typescript": "^4.5.4"
+        "@swc/cli": "0.1.55",
+        "@swc/core": "1.2.120",
+        "@types/node": "16.11.13",
+        "@typescript-eslint/eslint-plugin": "5.7.0",
+        "@typescript-eslint/parser": "5.7.0",
+        "eslint": "8.5.0",
+        "eslint-config-prettier": "8.3.0",
+        "husky": "7.0.4",
+        "nodemon": "2.0.15",
+        "prettier": "2.5.1",
+        "typescript": "4.5.4"
     },
     "dependencies": {
-        "@ajar/marker": "^1.3.2"
+        "@ajar/marker": "1.3.3"
     },
     "repository": {
         "type": "git",
